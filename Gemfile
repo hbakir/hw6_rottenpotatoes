@@ -14,7 +14,8 @@ group :test do
 end
 group :development, :test do
   gem 'sqlite3'
-  gem 'ruby-debug19', :require => 'ruby-debug'
+#  gem 'ruby-debug19', :require => 'ruby-debug'
+  gem 'debugger'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'
